@@ -27,7 +27,7 @@
     <project name="seL4.git" path="kernel" revision="experimental"/>
 
     <project name="elfloader-tool.git" path="tools/elfloader"/>
-    <project name="common-tool.git" path="tools/common" revision="camkes"/>
+    <project name="common-tool.git" path="tools/common"/>
     <project name="kbuild-tool.git" path="tools/kbuild"/>
     <project name="camkes-tool.git" path="tools/camkes"/>
     <project name="capDL-tool.git" path="tools/capDL"/>
