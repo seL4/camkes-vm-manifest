@@ -52,6 +52,7 @@
     <project name="libsel4allocman.git" path="libs/libsel4allocman"/>
     <project name="libsel4vmm.git" path="libs/libsel4vmm" revision="camkes"/>
     <project name="libboost.git" path="libs/libboost"/>
+    <project name="libsel4bench.git" path="libs/libsel4bench"/>
 
     <project name="camkes-vm.git" path="projects/vm">
         <!-- symlinks to make the project structure fit the build system -->
@@ -62,8 +63,10 @@
         <linkfile src="../../tools/camkes/docs/index.md" dest="README.md"/>
         <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
         <linkfile src="../../tools/camkes/libsel4camkes" dest="libs/libsel4camkes"/>
+        <linkfile src="libsel4cxx" dest="libs/libsel4cxx"/>
         <linkfile src="tools/elf" dest="tools/elf"/>
         <linkfile src="apps/vm" dest="apps/vm"/>
+        <linkfile src="apps/cxx" dest="apps/cxx"/>
     </project>
 
 
