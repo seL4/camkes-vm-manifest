@@ -68,6 +68,7 @@
         <linkfile src="tools/elf" dest="tools/elf"/>
         <linkfile src="apps/vm" dest="apps/vm"/>
         <linkfile src="apps/cxx" dest="apps/cxx"/>
+        <linkfile src="c162_README" dest="c162_README"/>
     </project>
 
 
