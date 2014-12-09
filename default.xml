@@ -61,14 +61,14 @@
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
-        <linkfile src="../../tools/camkes/docs/index.md" dest="README.md"/>
+        <linkfile src="../../tools/camkes/docs/index.md" dest="camkes_README.md"/>
         <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
         <linkfile src="../../tools/camkes/libsel4camkes" dest="libs/libsel4camkes"/>
         <linkfile src="libsel4cxx" dest="libs/libsel4cxx"/>
         <linkfile src="tools/elf" dest="tools/elf"/>
         <linkfile src="apps/vm" dest="apps/vm"/>
         <linkfile src="apps/cxx" dest="apps/cxx"/>
-        <linkfile src="c162_README" dest="c162_README"/>
+        <linkfile src="README.md" dest="README.md"/>
     </project>
 
 
