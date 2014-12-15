@@ -65,6 +65,7 @@
         <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
         <linkfile src="../../tools/camkes/libsel4camkes" dest="libs/libsel4camkes"/>
         <linkfile src="libsel4cxx" dest="libs/libsel4cxx"/>
+        <linkfile src="liblwip" dest="libs/liblwip"/>
         <linkfile src="tools/elf" dest="tools/elf"/>
         <linkfile src="apps/vm" dest="apps/vm"/>
         <linkfile src="apps/cxx" dest="apps/cxx"/>
