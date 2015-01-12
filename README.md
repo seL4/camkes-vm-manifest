@@ -12,4 +12,4 @@ For general information about CAmkES see [the CAmkES pages on seL4.systems](http
 
 For detailed information about CAmkES see documentation in [the camkes-tool repo](https://github.com/seL4/camkes-tool/blob/master/docs/index.md).
 
-For detailed information about the VM on the C162 platform see the doucmention in [the camkes-vm repo](https://github.com/seL4/camkes-vm/blob/master/c162_README).
+For detailed information about the VM on the C162 platform see the doucmention in [the camkes-vm repo](https://github.com/seL4/camkes-vm/blob/master/README.md).
