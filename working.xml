@@ -47,5 +47,5 @@
   <project name="libutils.git" path="libs/libutils" revision="28471b687d1be2c8cc1e9a1c17361be5d1ba226c" upstream="master"/>
   <project name="musllibc.git" path="libs/libmuslc" revision="6aa6001a2413db18f056daa14801e64c0c089e6f" upstream="sel4"/>
   <project name="python-capdl-tool.git" path="tools/python-capdl" revision="6daf98c274db64fcb1d0f5939a4b330b864df0b2" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="1b8f18d506dc7824e16f485a32d4e523c0163946" upstream="experimental"/>
+  <project name="seL4.git" path="kernel" revision="db2e46b644074cc78eee19a17b82e9c1f4d49c65" upstream="experimental"/>
 </manifest>
