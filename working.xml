@@ -4,8 +4,8 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="2d348014b511cc70dd6d6cb9797a47e906aef9a2" upstream="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="304ef7092868ee69b9de3ae4e7828b186e314d81" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="38805d50e2507db121d01e30824845da7017bd65" upstream="master"/>
+  <project name="camkes-vm.git" path="projects/vm" revision="df8f2d986c20bcd87f4df190be1ff01d29b45747" upstream="master">
     <linkfile dest="Makefile" src="Makefile"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="Kconfig" src="Kconfig"/>
