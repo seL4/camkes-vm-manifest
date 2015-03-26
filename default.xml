@@ -29,7 +29,10 @@
     <project name="elfloader-tool.git" path="tools/elfloader"/>
     <project name="common-tool.git" path="tools/common"/>
     <project name="kbuild-tool.git" path="tools/kbuild"/>
-    <project name="camkes-tool.git" path="tools/camkes"/>
+    <project name="camkes-tool.git" path="tools/camkes">
+        <linkfile src="camkes/toplevel.mk" dest="Makefile"/>
+        <linkfile src="camkes/Kbuild" dest="Kbuild"/>
+    </project>
     <project name="capDL-tool.git" path="tools/capDL"/>
     <project name="python-capdl-tool.git" path="tools/python-capdl"/>
 
@@ -57,8 +60,6 @@
 
     <project name="camkes-vm.git" path="projects/vm">
         <!-- symlinks to make the project structure fit the build system -->
-        <linkfile src="Makefile" dest="Makefile"/>
-        <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
         <linkfile src="../../tools/camkes/docs/index.md" dest="camkes_README.md"/>
