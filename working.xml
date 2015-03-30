@@ -5,8 +5,8 @@
   <default remote="seL4" revision="master"/>
   
   <project name="camkes-tool.git" path="tools/camkes" revision="322ae7003f0081cabe7fc8375374fc5567464d23" upstream="master">
-    <linkfile dest="Makefile" src="camkes/toplevel.mk"/>
-    <linkfile dest="Kbuild" src="camkes/Kbuild"/>
+    <linkfile dest="Makefile" src="toplevel.mk"/>
+    <linkfile dest="Kbuild" src="Kbuild"/>
   </project>
   <project name="camkes-vm.git" path="projects/vm" revision="cfa947fe84414744d772a63a4e0e4d1cc3574e37" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
