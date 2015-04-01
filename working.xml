@@ -4,11 +4,11 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="322ae7003f0081cabe7fc8375374fc5567464d23" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="f94c847a28614e155665474eface4c81adff5439" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
   </project>
-  <project name="camkes-vm.git" path="projects/vm" revision="cfa947fe84414744d772a63a4e0e4d1cc3574e37" upstream="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="6898d9cb372c491ff4171ad2747b9d87e4eb4114" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="camkes_README.md" src="../../tools/camkes/docs/index.md"/>
@@ -31,7 +31,7 @@
   <project name="libelf.git" path="libs/libelf" revision="5bbbc98166395b896cef2be7a49ba01a751e7c22" upstream="master"/>
   <project name="libethdrivers.git" path="libs/libethdrivers" revision="05d815daf61cb1171b576f9710ed30f92f861f8f" upstream="master"/>
   <project name="libpci.git" path="libs/libpci" revision="7f99639221bbc3f2030b70a572fae25a865d0fe5" upstream="master"/>
-  <project name="libplatsupport.git" path="libs/libplatsupport" revision="236e08af3a2a52e334df881e123df93644968101" upstream="master"/>
+  <project name="libplatsupport.git" path="libs/libplatsupport" revision="5131c4d523b3703bf645bdfd4477812ff6b303eb" upstream="master"/>
   <project name="libsel4allocman.git" path="libs/libsel4allocman" revision="2ff07b32e975799ff960d33f32bd32e8b2784775" upstream="master"/>
   <project name="libsel4bench.git" path="libs/libsel4bench" revision="f4010c752393f7ff3f8d016f4ca51182fba0b09c" upstream="master"/>
   <project name="libsel4debug.git" path="libs/libsel4debug" revision="6b4072058fd5f1ef1bb2ab1ef51a11a51ddb1149" upstream="master"/>
