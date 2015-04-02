@@ -8,7 +8,7 @@
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
   </project>
-  <project name="camkes-vm.git" path="projects/vm" revision="efdd36be903306b9be35b6053ef467fa11d4c5bf" upstream="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="d1d487287c329f0e31273c2538af9d52e6dfbac2" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="camkes_README.md" src="../../tools/camkes/docs/index.md"/>
@@ -43,7 +43,7 @@
   <project name="libsel4sync.git" path="libs/libsel4sync" revision="770ad788fbec7e0304986c93ae8aa2ec7002eab5" upstream="master"/>
   <project name="libsel4utils.git" path="libs/libsel4utils" revision="a8cfaf5ad11d015045ae9a252be7798f56b713c5" upstream="master"/>
   <project name="libsel4vka.git" path="libs/libsel4vka" revision="606fbeb5fa5d6c96a22155101d28b146f01fc3ff" upstream="master"/>
-  <project name="libsel4vmm.git" path="libs/libsel4vmm" revision="80e3d8fdb471a47ec260e7ff10e14a63fa7faacd" upstream="master"/>
+  <project name="libsel4vmm.git" path="libs/libsel4vmm" revision="a14680883e2e6f4faeb8a816b16e69a85f9c5165" upstream="master"/>
   <project name="libsel4vspace.git" path="libs/libsel4vspace" revision="742bd59cd2bff3eaa4d0d12aa4a01d1b0d873707" upstream="master"/>
   <project name="libutils.git" path="libs/libutils" revision="580602c203b1b04b88a57b3647bb2b433ff04153" upstream="master"/>
   <project name="musllibc.git" path="libs/libmuslc" revision="6aa6001a2413db18f056daa14801e64c0c089e6f" upstream="sel4"/>
