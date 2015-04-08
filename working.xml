@@ -4,11 +4,11 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="f94c847a28614e155665474eface4c81adff5439" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="75dcb798c4411f24ca31ed67f03dfde443b269ea" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
   </project>
-  <project name="camkes-vm.git" path="projects/vm" revision="d1d487287c329f0e31273c2538af9d52e6dfbac2" upstream="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="817ea2f94265099071f5070a778bb6e5058b0aed" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="camkes_README.md" src="../../tools/camkes/docs/index.md"/>
@@ -48,5 +48,5 @@
   <project name="libutils.git" path="libs/libutils" revision="580602c203b1b04b88a57b3647bb2b433ff04153" upstream="master"/>
   <project name="musllibc.git" path="libs/libmuslc" revision="6aa6001a2413db18f056daa14801e64c0c089e6f" upstream="sel4"/>
   <project name="python-capdl-tool.git" path="tools/python-capdl" revision="a413ac5801bc349192598f2e64f594058f4f1955" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="ff5504ef1f015255ab5ed65165e11f692441de1c" upstream="experimental"/>
+  <project name="seL4.git" path="kernel" revision="4182c46517e38bfda8d93abdd5ed14366e731c8d" upstream="experimental"/>
 </manifest>
