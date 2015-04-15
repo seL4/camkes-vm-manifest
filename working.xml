@@ -4,11 +4,11 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="75dcb798c4411f24ca31ed67f03dfde443b269ea" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="9ceb9d0a69ab464bd2029ab72517d3b7332ac365" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
   </project>
-  <project name="camkes-vm.git" path="projects/vm" revision="817ea2f94265099071f5070a778bb6e5058b0aed" upstream="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="a5d2d397fc5e7351894b2cfb41a7497df3ef6b5f" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="camkes_README.md" src="../../tools/camkes/docs/index.md"/>
@@ -18,6 +18,7 @@
     <linkfile dest="libs/liblwip" src="liblwip"/>
     <linkfile dest="tools/elf" src="tools/elf"/>
     <linkfile dest="apps/vm" src="apps/vm"/>
+    <linkfile dest="apps/c162_twovm" src="apps/c162_twovm"/>
     <linkfile dest="apps/cxx" src="apps/cxx"/>
     <linkfile dest="README.md" src="README.md"/>
   </project>
@@ -31,7 +32,7 @@
   <project name="libelf.git" path="libs/libelf" revision="5bbbc98166395b896cef2be7a49ba01a751e7c22" upstream="master"/>
   <project name="libethdrivers.git" path="libs/libethdrivers" revision="05d815daf61cb1171b576f9710ed30f92f861f8f" upstream="master"/>
   <project name="libpci.git" path="libs/libpci" revision="7f99639221bbc3f2030b70a572fae25a865d0fe5" upstream="master"/>
-  <project name="libplatsupport.git" path="libs/libplatsupport" revision="5131c4d523b3703bf645bdfd4477812ff6b303eb" upstream="master"/>
+  <project name="libplatsupport.git" path="libs/libplatsupport" revision="c156ab24ebbda5cb9282f3f4514f8b2e3c1bbfe5" upstream="master"/>
   <project name="libsel4allocman.git" path="libs/libsel4allocman" revision="2ff07b32e975799ff960d33f32bd32e8b2784775" upstream="master"/>
   <project name="libsel4bench.git" path="libs/libsel4bench" revision="f4010c752393f7ff3f8d016f4ca51182fba0b09c" upstream="master"/>
   <project name="libsel4debug.git" path="libs/libsel4debug" revision="6b4072058fd5f1ef1bb2ab1ef51a11a51ddb1149" upstream="master"/>
@@ -40,13 +41,13 @@
   <project name="libsel4platsupport.git" path="libs/libsel4platsupport" revision="0e27a523dc9a8c82abad1c451364d63cee8bce41" upstream="master"/>
   <project name="libsel4simple-stable.git" path="libs/libsel4simple-stable" revision="0c303193ea79c9147cb45b83b917091070c4fa0e" upstream="master"/>
   <project name="libsel4simple.git" path="libs/libsel4simple" revision="b279e0313210fda032dfdb533849b11f9832bde5" upstream="master"/>
-  <project name="libsel4sync.git" path="libs/libsel4sync" revision="770ad788fbec7e0304986c93ae8aa2ec7002eab5" upstream="master"/>
+  <project name="libsel4sync.git" path="libs/libsel4sync" revision="03812d0b7793bb6b4573e21ab2ae71b380c964a2" upstream="master"/>
   <project name="libsel4utils.git" path="libs/libsel4utils" revision="a8cfaf5ad11d015045ae9a252be7798f56b713c5" upstream="master"/>
   <project name="libsel4vka.git" path="libs/libsel4vka" revision="606fbeb5fa5d6c96a22155101d28b146f01fc3ff" upstream="master"/>
   <project name="libsel4vmm.git" path="libs/libsel4vmm" revision="a14680883e2e6f4faeb8a816b16e69a85f9c5165" upstream="master"/>
   <project name="libsel4vspace.git" path="libs/libsel4vspace" revision="742bd59cd2bff3eaa4d0d12aa4a01d1b0d873707" upstream="master"/>
   <project name="libutils.git" path="libs/libutils" revision="580602c203b1b04b88a57b3647bb2b433ff04153" upstream="master"/>
   <project name="musllibc.git" path="libs/libmuslc" revision="6aa6001a2413db18f056daa14801e64c0c089e6f" upstream="sel4"/>
-  <project name="python-capdl-tool.git" path="tools/python-capdl" revision="a413ac5801bc349192598f2e64f594058f4f1955" upstream="master"/>
+  <project name="python-capdl-tool.git" path="tools/python-capdl" revision="48861fd6c46e8e7bca20c1eed21db2b1348e162c" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="4182c46517e38bfda8d93abdd5ed14366e731c8d" upstream="experimental"/>
 </manifest>
