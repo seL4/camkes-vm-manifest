@@ -8,7 +8,7 @@
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
   </project>
-  <project name="camkes-vm.git" path="projects/vm" revision="7b22043edfdf3d7be1ec190fe0c598195e7431cb" upstream="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="df89fc33304a57a7c5603b02d985362c27e89610" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="camkes_README.md" src="../../tools/camkes/docs/index.md"/>
