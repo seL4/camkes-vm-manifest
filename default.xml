@@ -28,7 +28,9 @@
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
     <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental"/>
 
-    <project name="seL4.git" path="kernel" revision="experimental"/>
+    <project name="seL4.git" path="kernel" revision="experimental">
+        <linkfile src="libsel4" dest="libs/libsel4"/>
+    </project>
 
     <project name="elfloader-tool.git" path="tools/elfloader"/>
     <project name="common-tool.git" path="tools/common"/>
@@ -36,6 +38,8 @@
     <project name="camkes-tool.git" path="tools/camkes">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
+        <linkfile src="docs/index.md" dest="camkes_README.md"/>
+        <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
     </project>
     <project name="capDL-tool.git" path="tools/capDL"/>
     <project name="python-capdl-tool.git" path="tools/python-capdl"/>
@@ -66,9 +70,6 @@
         <!-- symlinks to make the project structure fit the build system -->
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
-        <linkfile src="../../tools/camkes/docs/index.md" dest="camkes_README.md"/>
-        <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
-        <linkfile src="../../tools/camkes/libsel4camkes" dest="libs/libsel4camkes"/>
         <linkfile src="libsel4cxx" dest="libs/libsel4cxx"/>
         <linkfile src="liblwip" dest="libs/liblwip"/>
         <linkfile src="tools/elf" dest="tools/elf"/>
