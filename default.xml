@@ -75,6 +75,7 @@
         <linkfile src="tools/elf" dest="tools/elf"/>
         <linkfile src="apps/vm" dest="apps/vm"/>
         <linkfile src="apps/c162_twovm" dest="apps/c162_twovm"/>
+        <linkfile src="apps/optiplex9020_onevm" dest="apps/optiplex9020_onevm"/>
         <linkfile src="apps/cxx" dest="apps/cxx"/>
         <linkfile src="README.md" dest="README.md"/>
     </project>
