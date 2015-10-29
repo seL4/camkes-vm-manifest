@@ -5,13 +5,13 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="f8515b2d2906faa04959818896e5ea26b3f8a70c" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="1910e98f48b6a59f669a406360d01fb0e8c216a6" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
   </project>
-  <project name="camkes-vm.git" path="projects/vm" revision="b8c24f7b6ff534a1e3ba7b8c9d3321a74eae1331" upstream="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="8185bf5b4be293a75a234dc8860c2683a3d8769e" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="libs/libsel4cxx" src="libsel4cxx"/>
@@ -23,34 +23,34 @@
     <linkfile dest="apps/cxx" src="apps/cxx"/>
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="capDL-tool.git" path="tools/capDL" revision="394ae0df8c5f3e4a660c7232d2e3dbd747389b0f" upstream="master"/>
-  <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental" revision="4240ecb9be86d95c30ec4915c924daef247fa8f0" upstream="master"/>
-  <project name="common-tool.git" path="tools/common" revision="83492a68080d00d27c68ac9f90218fd7428ec0ce" upstream="master"/>
-  <project name="elfloader-tool.git" path="tools/elfloader" revision="2e98049f0c8f701db679174a8df1d8568e9e185d" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="seL4-projects" revision="6f1fd1932e396eb5e6caa971a97c0f8876494394" upstream="master"/>
+  <project name="capDL-tool.git" path="tools/capDL" revision="2e4c77d325101fabbbe8cc10be1f6901b571ce64" upstream="master"/>
+  <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental" revision="580ca1caa09825f97bb8d4f40596c5a326fa6b3d" upstream="master"/>
+  <project name="common-tool.git" path="tools/common" revision="f5655ca05d1f39e30c45149dba259442b63cf1f2" upstream="master"/>
+  <project name="elfloader-tool.git" path="tools/elfloader" revision="52a01c7c08f8db4dc965eedee3ff92a43696e018" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="seL4-projects" revision="4655c2a33faff5bb3ca6ea0372ca072110274fb6" upstream="master"/>
   <project name="kbuild-tool.git" path="tools/kbuild" revision="820f7efb4fbceeb1d0223f48f34dacfe8378cfdb" upstream="master"/>
-  <project name="libcpio.git" path="libs/libcpio" revision="fb50b5f4e0eedf1da877989a7a22b38ee3e77f4d" upstream="master"/>
-  <project name="libelf.git" path="libs/libelf" revision="5bbbc98166395b896cef2be7a49ba01a751e7c22" upstream="master"/>
+  <project name="libcpio.git" path="libs/libcpio" revision="f1f2ff8a19a18a2dccb3e38edf3a1999b1b20f2d" upstream="master"/>
+  <project name="libelf.git" path="libs/libelf" revision="a49866f681067cccf8d45f6a7dd4acb6f386bf15" upstream="master"/>
   <project name="libethdrivers.git" path="libs/libethdrivers" revision="3207481c802a8a7975456d9e0c09f97eb37607e8" upstream="master"/>
   <project name="libpci.git" path="libs/libpci" revision="f11fd414959098abc9a160a9a62b6e642cef5d30" upstream="master"/>
-  <project name="libplatsupport.git" path="libs/libplatsupport" revision="11c7ee8e365f74117800583dbdcdaec8b882d8a8" upstream="master"/>
-  <project name="libsel4allocman.git" path="libs/libsel4allocman" revision="9770489136d938c2736ebc942748f6dd308be962" upstream="master"/>
-  <project name="libsel4bench.git" path="libs/libsel4bench" revision="509177f376316804a8d38245d1223c38333afb82" upstream="master"/>
-  <project name="libsel4debug.git" path="libs/libsel4debug" revision="d1c98b75fd19c70544b9d85b53935b52185a36c5" upstream="master"/>
-  <project name="libsel4muslcsys.git" path="libs/libsel4muslcsys" revision="86f784e473fb93d7cd686461cd36a34a66c016af" upstream="master"/>
+  <project name="libplatsupport.git" path="libs/libplatsupport" revision="34de75a9121613bfc7767f90b01aac863824f310" upstream="master"/>
+  <project name="libsel4allocman.git" path="libs/libsel4allocman" revision="1463de68754794b3292dda42e181cc598b9b3323" upstream="master"/>
+  <project name="libsel4bench.git" path="libs/libsel4bench" revision="7bd270cc923caca8ee78599b3615214e7b33f4c6" upstream="master"/>
+  <project name="libsel4debug.git" path="libs/libsel4debug" revision="8d71a05502c0398bef64829bb8af7114995dfc92" upstream="master"/>
+  <project name="libsel4muslcsys.git" path="libs/libsel4muslcsys" revision="73194af0208ca8b996257788bf3877a440af26b5" upstream="master"/>
   <project name="libsel4muslcsys.git" path="libs/libsel4muslccamkes" revision="107d31fe308809a7e7de6ffc40a13d7ef6a6c9b9" upstream="camkes"/>
-  <project name="libsel4platsupport.git" path="libs/libsel4platsupport" revision="8e90f7e909999d4d430656d33bd4f1a6ed232d1a" upstream="master"/>
-  <project name="libsel4simple-stable.git" path="libs/libsel4simple-stable" revision="0c303193ea79c9147cb45b83b917091070c4fa0e" upstream="master"/>
-  <project name="libsel4simple.git" path="libs/libsel4simple" revision="7f1d3ba74ffcaaa8a41c4f2fbc92d292c319e339" upstream="master"/>
-  <project name="libsel4sync.git" path="libs/libsel4sync" revision="a6da1b5ccbc8350b7f77fdf88fb14d9573ef8bd8" upstream="master"/>
-  <project name="libsel4utils.git" path="libs/libsel4utils" revision="fb5c453e1f90b6d9552e6538618fc4468e83ff1a" upstream="master"/>
-  <project name="libsel4vka.git" path="libs/libsel4vka" revision="108582a3988317fd804122a79b970320622bc316" upstream="master"/>
-  <project name="libsel4vmm.git" path="libs/libsel4vmm" revision="26dd43f0524c45c51758d3f45905b6c87ee2b655" upstream="master"/>
-  <project name="libsel4vspace.git" path="libs/libsel4vspace" revision="742bd59cd2bff3eaa4d0d12aa4a01d1b0d873707" upstream="master"/>
-  <project name="libutils.git" path="libs/libutils" revision="9a3994dcca0745fc574b6c049bdc434e218a7085" upstream="master"/>
-  <project name="musllibc.git" path="libs/libmuslc" revision="b2ce4c3eb155d24007ea60ad3939af492bfa41ec" upstream="sel4"/>
-  <project name="python-capdl-tool.git" path="tools/python-capdl" revision="8374e8b47eba24f9125b1714b4642f3be85b684a" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="3ff38f1df012fcdd7c6bb3ff3a0d52640a674c29" upstream="experimental">
+  <project name="libsel4platsupport.git" path="libs/libsel4platsupport" revision="cb83528261de6ad393a80a3acbc6a7e6059790e1" upstream="master"/>
+  <project name="libsel4simple-stable.git" path="libs/libsel4simple-stable" revision="efbcd54caec3a6850ba2644bd8248cec659b6fd1" upstream="master"/>
+  <project name="libsel4simple.git" path="libs/libsel4simple" revision="57a0ceec1af0859a8ef58eb24f2c845e2c3b4a9e" upstream="master"/>
+  <project name="libsel4sync.git" path="libs/libsel4sync" revision="9b06bb69efe097e60bf997d406b5f69cd3830da1" upstream="master"/>
+  <project name="libsel4utils.git" path="libs/libsel4utils" revision="3af53102843fda03c107caf83d43685b0a3c4822" upstream="master"/>
+  <project name="libsel4vka.git" path="libs/libsel4vka" revision="ca56b935c0cd53e1bf4c18d09dded8b1cd4fc1b7" upstream="master"/>
+  <project name="libsel4vmm.git" path="libs/libsel4vmm" revision="f2ddd61dfdb8da944e85d2ef62cacf2b388f35fd" upstream="master"/>
+  <project name="libsel4vspace.git" path="libs/libsel4vspace" revision="d301d47bebf9de5f9a3fc1e89d88b65683c8cb3e" upstream="master"/>
+  <project name="libutils.git" path="libs/libutils" revision="e1ac3fd432279934fcc60fd85359772f8fc7f30f" upstream="master"/>
+  <project name="musllibc.git" path="libs/libmuslc" revision="6b03a2f5e51492da9c3adb152761b87d99747c15" upstream="sel4"/>
+  <project name="python-capdl-tool.git" path="tools/python-capdl" revision="5dc784a1f87c82cc43ec797641175248ccd4af62" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="1e02111470f7d73176fa220df870eb100ed81308" upstream="experimental">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
 </manifest>
