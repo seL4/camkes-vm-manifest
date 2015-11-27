@@ -26,8 +26,6 @@
     />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental"/>
-
     <project name="seL4.git" path="kernel" revision="experimental">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
@@ -39,8 +37,12 @@
         <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
         <linkfile src="libsel4muslccamkes" dest="libs/libsel4muslccamkes"/>
     </project>
-    <project name="capDL-tool.git" path="tools/capDL"/>
-    <project name="python-capdl-tool.git" path="tools/python-capdl"/>
+
+    <project name="capdl.git" path="projects/capdl">
+        <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
+        <linkfile src="capDL-tool" dest="tools/capDL"/>
+        <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
+    </project>
 
     <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
     <project remote="seL4-projects" name="global-components.git" path="projects/global-components"/>
