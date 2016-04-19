@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="seL4"/>
-  <remote fetch="../seL4-projects" name="seL4-projects"/>
+  <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
   
   <default remote="seL4" revision="master"/>
   
@@ -32,7 +32,7 @@
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
-  <project name="global-components.git" path="projects/global-components" remote="seL4-projects" revision="4655c2a33faff5bb3ca6ea0372ca072110274fb6" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="4655c2a33faff5bb3ca6ea0372ca072110274fb6" upstream="master"/>
   <project name="musllibc.git" path="libs/libmuslc" revision="07ec81e46dd9856aed9c21ae1614da594133aa3e" upstream="sel4"/>
   <project name="seL4.git" path="kernel" revision="2fa6618dd13409c839876f96032cc6301b325735" upstream="experimental">
     <linkfile dest="libs/libsel4" src="libsel4"/>

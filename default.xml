@@ -16,8 +16,8 @@
         fetch="."
     />
 
-    <remote name="seL4-projects"
-        fetch="../seL4-projects"
+    <remote name="SEL4PROJ"
+        fetch="../SEL4PROJ"
     />
 
     <!-- default revision for each project, and name of the remote -->
@@ -45,7 +45,7 @@
     </project>
 
     <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
-    <project remote="seL4-projects" name="global-components.git" path="projects/global-components"/>
+    <project remote="SEL4PROJ" name="global-components.git" path="projects/global-components"/>
 
     <project name="seL4_tools.git" path="projects/tools">
         <linkfile src="kbuild-tool" dest="tools/kbuild"/>
