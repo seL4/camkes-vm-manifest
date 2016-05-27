@@ -62,7 +62,7 @@
         <linkfile src="libutils" dest="libs/libutils"/>
     </project>
 
-    <project name="seL4_libs" path="projects/seL4_libs" revision="19341ce5ac8c47055fd943d9a1556e39713b97d2">
+    <project name="seL4_libs" path="projects/seL4_libs" revision="9adacd75afd2980b070081fe3372e85323b30b5e">
         <linkfile src="libsel4allocman" dest="libs/libsel4allocman"/>
         <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
         <linkfile src="libsel4debug" dest="libs/libsel4debug"/>
