@@ -30,7 +30,7 @@
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
-    <project name="camkes-tool.git" path="tools/camkes" revision="272a96cf9f392c0101163e1b56e5071cf2e1c5ef">
+    <project name="camkes-tool.git" path="tools/camkes">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="docs/index.md" dest="camkes_README.md"/>
@@ -38,7 +38,7 @@
         <linkfile src="libsel4muslccamkes" dest="libs/libsel4muslccamkes"/>
     </project>
 
-    <project name="capdl.git" path="projects/capdl" revision="3445c6d691b128782ad9a86b4b76104f21eac89b">
+    <project name="capdl.git" path="projects/capdl">
         <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
         <linkfile src="capDL-tool" dest="tools/capDL"/>
         <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
@@ -62,7 +62,7 @@
         <linkfile src="libutils" dest="libs/libutils"/>
     </project>
 
-    <project name="seL4_libs" path="projects/seL4_libs" revision="fba25ff422690607861911cfe5cf297052f5b1bd">
+    <project name="seL4_libs" path="projects/seL4_libs" revision="19341ce5ac8c47055fd943d9a1556e39713b97d2">
         <linkfile src="libsel4allocman" dest="libs/libsel4allocman"/>
         <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
         <linkfile src="libsel4debug" dest="libs/libsel4debug"/>
