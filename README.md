@@ -6,9 +6,9 @@ on a particular hardware platform. Currently the VMM is mostly targeted to run o
 C162 platform from Aitech. There is also a configuration for running on generic x86
 machines, but it has almost no hardware support.
 
-For general instructions on how to use this repository, see [sel4.systems](http://sel4.systems/Download/building).
+For general instructions on how to use this repository, see [wiki.seL4.systems](https://wiki.sel4.systems/Getting%20started).
 
-For general information about CAmkES see [the CAmkES pages on seL4.systems](http://sel4.systems/CAmkES).
+For general information about CAmkES see [the CAmkES pages on wiki.seL4.systems](https://wiki.sel4.systems/CAmkES).
 
 For detailed information about CAmkES see documentation in [the camkes-tool repo](https://github.com/seL4/camkes-tool/blob/master/docs/index.md).
 
