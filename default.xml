@@ -38,7 +38,7 @@
         <linkfile src="libsel4muslccamkes" dest="libs/libsel4muslccamkes"/>
     </project>
 
-    <project name="capdl.git" path="projects/capdl">
+    <project name="capdl.git" path="projects/capdl" revision="444f03024f1e1bef65e311a7f107b0d69ce1ba51">
         <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
         <linkfile src="capDL-tool" dest="tools/capDL"/>
         <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
