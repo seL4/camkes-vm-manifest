@@ -87,6 +87,7 @@
         <linkfile src="apps/vm" dest="apps/vm"/>
         <linkfile src="apps/c162_twovm" dest="apps/c162_twovm"/>
         <linkfile src="apps/optiplex9020_onevm" dest="apps/optiplex9020_onevm"/>
+        <linkfile src="apps/optiplex9020_onevm_cross_vm_dataport" dest="apps/optiplex9020_onevm_cross_vm_dataport"/>
         <linkfile src="apps/cma34cr_singlevm" dest="apps/cma34cr_singlevm"/>
         <linkfile src="apps/cma34cr_twovm" dest="apps/cma34cr_twovm"/>
         <linkfile src="apps/cma34cr_vchan" dest="apps/cma34cr_vchan"/>
