@@ -26,7 +26,7 @@
     />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project name="seL4.git" path="kernel" revision="experimental">
+    <project name="seL4.git" path="kernel">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
