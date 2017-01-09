@@ -90,6 +90,7 @@
         <linkfile src="apps/optiplex9020_onevm" dest="apps/optiplex9020_onevm"/>
         <linkfile src="apps/cma34cr_singlevm" dest="apps/cma34cr_singlevm"/>
         <linkfile src="apps/cma34cr_twovm" dest="apps/cma34cr_twovm"/>
+        <linkfile src="apps/cma34cr_ubuntu" dest="apps/cma34cr_ubuntu"/>
         <linkfile src="apps/cma34cr_vchan" dest="apps/cma34cr_vchan"/>
         <linkfile src="apps/cxx" dest="apps/cxx"/>
         <linkfile src="README.md" dest="README.md"/>
