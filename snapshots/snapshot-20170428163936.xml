@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="../SEL4PROJ" name="SEL4PROJ"/>
+  <remote fetch="." name="seL4"/>
+  
+  <default remote="seL4" revision="master"/>
+  
+  <project name="camkes-tool.git" path="tools/camkes" revision="f6b9441745a184e09b8e1602b70e4d679dc3dca4" upstream="next">
+    <linkfile dest="Makefile" src="toplevel.mk"/>
+    <linkfile dest="Kbuild" src="Kbuild"/>
+    <linkfile dest="camkes_README.md" src="docs/index.md"/>
+    <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
+    <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
+  </project>
+  <project name="camkes-vm.git" path="projects/vm" revision="d080ae9b9b6b57b7208199913ceeba642ad7b823" upstream="master">
+    <linkfile dest="Kconfig" src="Kconfig"/>
+    <linkfile dest="configs" src="configs"/>
+    <linkfile dest="libs/libsel4cxx" src="libsel4cxx"/>
+    <linkfile dest="libs/liblwip" src="liblwip"/>
+    <linkfile dest="tools/elf" src="tools/elf"/>
+    <linkfile dest="apps/vm" src="apps/vm"/>
+    <linkfile dest="apps/c162_twovm" src="apps/c162_twovm"/>
+    <linkfile dest="apps/optiplex9020_onevm" src="apps/optiplex9020_onevm"/>
+    <linkfile dest="apps/cma34cr_minimal" src="apps/cma34cr_minimal"/>
+    <linkfile dest="apps/cma34cr_singlevm" src="apps/cma34cr_singlevm"/>
+    <linkfile dest="apps/cma34cr_twovm" src="apps/cma34cr_twovm"/>
+    <linkfile dest="apps/cma34cr_ubuntu" src="apps/cma34cr_ubuntu"/>
+    <linkfile dest="apps/cma34cr_centos" src="apps/cma34cr_centos"/>
+    <linkfile dest="apps/cma34cr_vchan" src="apps/cma34cr_vchan"/>
+    <linkfile dest="apps/cxx" src="apps/cxx"/>
+    <linkfile dest="README.md" src="README.md"/>
+    <linkfile dest="projects/vm/liblwip/include/lwip/lwipopts.h" src="lwipopts.h"/>
+  </project>
+  <project name="capdl.git" path="projects/capdl" revision="33d5618b1d769b4a378edda62f351b2b2258f404" upstream="master">
+    <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
+    <linkfile dest="tools/capDL" src="capDL-tool"/>
+    <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
+  </project>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="a6b73a0e99702559b4129de0478643c4f65127bc" upstream="next"/>
+  <project name="musllibc.git" path="libs/libmuslc" revision="558c9df056bac7b08863b2c3d64b06022a2dc49f" upstream="sel4"/>
+  <project name="seL4.git" path="kernel" revision="a7e296081497371a25c447e9fecc6d2f0d9c21aa" upstream="master">
+    <linkfile dest="libs/libsel4" src="libsel4"/>
+  </project>
+  <project name="seL4_libs" path="projects/seL4_libs" revision="60c6d51324d32c70a70ceb6f7c3d548c7aab14aa" upstream="master">
+    <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
+    <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
+    <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
+    <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
+    <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
+    <linkfile dest="libs/libsel4simple" src="libsel4simple"/>
+    <linkfile dest="libs/libsel4simple-stable" src="libsel4simple-stable"/>
+    <linkfile dest="libs/libsel4simple-default" src="libsel4simple-default"/>
+    <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
+    <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
+    <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
+    <linkfile dest="libs/libsel4vmm" src="libsel4vmm"/>
+    <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
+  </project>
+  <project name="seL4_tools.git" path="projects/tools" revision="a9295b6efd52f0956040e0ff9e6674af867f2b61" upstream="master">
+    <linkfile dest="tools/kbuild" src="kbuild-tool"/>
+    <linkfile dest="tools/common" src="common-tool"/>
+    <linkfile dest="tools/elfloader" src="elfloader-tool"/>
+  </project>
+  <project name="util_libs.git" path="projects/util_libs" revision="accfcac9308f84535d842bbfe2b321ac1374e2c5" upstream="master">
+    <linkfile dest="libs/libcpio" src="libcpio"/>
+    <linkfile dest="libs/libelf" src="libelf"/>
+    <linkfile dest="libs/libethdrivers" src="libethdrivers"/>
+    <linkfile dest="libs/libpci" src="libpci"/>
+    <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
+    <linkfile dest="libs/libutils" src="libutils"/>
+  </project>
+</manifest>
