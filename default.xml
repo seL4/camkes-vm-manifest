@@ -60,6 +60,16 @@
         <linkfile src="libpci" dest="libs/libpci"/>
         <linkfile src="libplatsupport" dest="libs/libplatsupport"/>
         <linkfile src="libutils" dest="libs/libutils"/>
+        <linkfile src="libpicotcp/Kbuild" dest="libs/libpicotcp/Kbuild"/>
+        <linkfile src="libpicotcp/Kconfig" dest="libs/libpicotcp/Kconfig"/>
+        <linkfile src="libpicotcp/Makefile" dest="libs/libpicotcp/Makefile"/>
+        <linkfile src="libpicotcp/picoopts.h" dest="libs/libpicotcp/picoopts.h"/>
+    </project>
+
+    <project name="picotcp.git" path="projects/picotcp" remote="SEL4PROJ">
+        <linkfile src="modules" dest="libs/libpicotcp/modules"/>
+        <linkfile src="stack" dest="libs/libpicotcp/stack"/>
+        <linkfile src="include" dest="libs/libpicotcp/include"/>
     </project>
 
     <project name="seL4_libs" path="projects/seL4_libs">
