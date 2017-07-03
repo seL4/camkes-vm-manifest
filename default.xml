@@ -105,6 +105,7 @@
         <linkfile src="apps/cma34cr_centos" dest="apps/cma34cr_centos"/>
         <linkfile src="apps/cma34cr_vchan" dest="apps/cma34cr_vchan"/>
         <linkfile src="apps/cxx" dest="apps/cxx"/>
+        <linkfile src="apps/cma34cr_picotcp" dest="apps/cma34cr_picotcp"/>
         <linkfile src="README.md" dest="README.md"/>
         <linkfile src="lwipopts.h" dest="projects/vm/liblwip/include/lwip/lwipopts.h"/>
     </project>
