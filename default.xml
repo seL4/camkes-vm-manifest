@@ -55,10 +55,10 @@
     <linkfile dest="libs/libpicotcp/stack" src="stack"/>
     <linkfile dest="libs/libpicotcp/include" src="include"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="7b84316d5cc85118413a29fdfc68d9c4fc4db40c" upstream="master">
+  <project name="seL4.git" path="kernel" revision="e0d76080d34605cedea4f6156b8a3215d630754b" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="bf05faa0e21c35792fd36a98558938ce532c92b1" upstream="master">
+  <project name="seL4_libs" path="projects/seL4_libs" revision="ee63bf60153f960c09ceb633e16ea328d42284e8" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
