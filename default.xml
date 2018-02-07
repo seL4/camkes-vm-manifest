@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="06cd270bead420fde73bfa318a11eefba1a05992" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="e1ad6b7e12e62583e8072c56f2634a534f087848" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
@@ -55,10 +55,10 @@
     <linkfile dest="libs/libpicotcp/stack" src="stack"/>
     <linkfile dest="libs/libpicotcp/include" src="include"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="396315f3bfb2592e2fe61eaaeee916b626f26e68" upstream="master">
+  <project name="seL4.git" path="kernel" revision="011d4528ba57316c275d0c09f42b1f53ec892d02" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="8338a1bf71a7a87c2a2cdfdffa7bf4c3d6440c03" upstream="master">
+  <project name="seL4_libs" path="projects/seL4_libs" revision="724576ac6c5b690735b67544e1cc4e5acf2adb8a" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
@@ -73,12 +73,12 @@
     <linkfile dest="libs/libsel4vmm" src="libsel4vmm"/>
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="afe398cd09bc35c5a4d573006ed19284a164ad80" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="022fcfe98947afbbbb54ec6a86eba6f5b7b4dd13" upstream="master">
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="48a144dd901459fdf263836569e017cf4da8d700" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="7397328206807da096970a18c450a81ec44e28a6" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libethdrivers" src="libethdrivers"/>
