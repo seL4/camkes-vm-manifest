@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="b1964dbfb08fb3bc28883c766c2a4efb58e54646" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="7c8d812e3ed781b7ce955207af69c83c0346eeba" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
@@ -43,7 +43,7 @@
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="projects/vm/liblwip/include/lwip/lwipopts.h" src="lwipopts.h"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="5c1d9ba86a1a68419d74ff23ba63305ae018fd96" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="9608a16b87fe9310c4dd58c1e8d7d8d40d6857e5" upstream="master">
     <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
