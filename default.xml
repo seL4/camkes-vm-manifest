@@ -55,7 +55,7 @@
     <linkfile dest="libs/libpicotcp/stack" src="stack"/>
     <linkfile dest="libs/libpicotcp/include" src="include"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="30738188dbd41016713d03cd5c3f20f5098c36f4" upstream="master">
+  <project name="seL4.git" path="kernel" revision="95a300fe5094687157652256f2692086c63b9ac1" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs" path="projects/seL4_libs" revision="6ee8ecb02b7071ee0eb505277e77bf30d1b5dc1d" upstream="master">
@@ -78,7 +78,7 @@
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="a8a25716c14a72d7af0d775c8a25ed3088db09e0" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="bb731a43c1f624e6fee15b76a3896ade76002a14" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libethdrivers" src="libethdrivers"/>
