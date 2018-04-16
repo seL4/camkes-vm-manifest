@@ -73,7 +73,7 @@
     <linkfile dest="libs/libsel4vmm" src="libsel4vmm"/>
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="6f2628cc0186f6329d5eeec1819f52f2c8d9f0df" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="a242cb7c4fdbdce6d9fd01f5b375c7137ed55f05" upstream="master">
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
