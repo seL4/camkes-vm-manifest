@@ -16,14 +16,14 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="581add105a330116c2d8676b133908a9c13cec57" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="e1337625df20a41a454606714952148475b50212" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
   </project>
-  <project name="camkes-vm.git" path="projects/vm" revision="42838d8e968a030d9bf531f91638a081e3e75992" upstream="master">
+  <project name="camkes-vm.git" path="projects/vm" revision="4cffd61cdcab5b795060d75b052c390349215b3d" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="libs/libsel4cxx" src="libsel4cxx"/>
@@ -43,7 +43,7 @@
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="projects/vm/liblwip/include/lwip/lwipopts.h" src="lwipopts.h"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="9608a16b87fe9310c4dd58c1e8d7d8d40d6857e5" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="e1ad32899b9d309a9146ec097cc4c5506317ebaa" upstream="master">
     <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
@@ -55,10 +55,10 @@
     <linkfile dest="libs/libpicotcp/stack" src="stack"/>
     <linkfile dest="libs/libpicotcp/include" src="include"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="a0ce040af88a3547021e96bccd5e8ca30e387a6e" upstream="master">
+  <project name="seL4.git" path="kernel" revision="5fade8b29f308c01c328f551b15b805744d61914" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs" path="projects/seL4_libs" revision="784574bad4bce22aff4ebd7d6cc3672f320d2b7d" upstream="master">
+  <project name="seL4_libs" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
@@ -78,7 +78,7 @@
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="2d09b5a665ea641570fbe034b30ad7b869bd7f11" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="c575f7280ce6184dbb2876f83a6c591c91de219e" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libethdrivers" src="libethdrivers"/>
