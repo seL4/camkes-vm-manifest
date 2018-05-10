@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="e1337625df20a41a454606714952148475b50212" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="d786bc26ee4c950d82045f8e5b2ce948c79f6e8c" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
@@ -55,7 +55,7 @@
     <linkfile dest="libs/libpicotcp/stack" src="stack"/>
     <linkfile dest="libs/libpicotcp/include" src="include"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="757c3ac98246afd0593367f1fa19054316a77495" upstream="master">
+  <project name="seL4.git" path="kernel" revision="62445b351f053cb4370f519f3d15874d210e5d95" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master">
@@ -73,7 +73,7 @@
     <linkfile dest="libs/libsel4vmm" src="libsel4vmm"/>
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="930b6467eae8404e4a72555b693120ac0d64fc48" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="121782a3ee7f6094684c083a31a3ef041e9bf1d2" upstream="master">
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
